@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-29T19:54:37 EDT" name="Default Suite" finished-at="2026-04-29T19:55:53 EDT" duration-ms="75649">
+    <groups>
+    </groups>
+    <test started-at="2026-04-29T19:54:37 EDT" name="com.qa.webshop" finished-at="2026-04-29T19:55:53 EDT" duration-ms="75649">
+      <class name="com.webshop.testcase.LoginPageTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:37 EDT" name="setupReport" finished-at="2026-04-29T19:54:37 EDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:37 EDT" name="setup" finished-at="2026-04-29T19:54:45 EDT" duration-ms="7828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginPageTitle()[pri:1, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:45 EDT" name="testLoginPageTitle" finished-at="2026-04-29T19:54:45 EDT" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:45 EDT" name="tearDown" finished-at="2026-04-29T19:54:48 EDT" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:48 EDT" name="setup" finished-at="2026-04-29T19:54:51 EDT" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:2, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:51 EDT" name="testValidLogin" finished-at="2026-04-29T19:54:53 EDT" duration-ms="2444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:53 EDT" name="tearDown" finished-at="2026-04-29T19:54:55 EDT" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:55 EDT" name="setup" finished-at="2026-04-29T19:54:58 EDT" duration-ms="2866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEmptyPassword()[pri:3, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:58 EDT" name="testEmptyPassword" finished-at="2026-04-29T19:54:59 EDT" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:54:59 EDT" name="tearDown" finished-at="2026-04-29T19:55:02 EDT" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:02 EDT" name="setup" finished-at="2026-04-29T19:55:05 EDT" duration-ms="3033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEmptyEmail()[pri:4, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:05 EDT" name="testEmptyEmail" finished-at="2026-04-29T19:55:06 EDT" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:06 EDT" name="tearDown" finished-at="2026-04-29T19:55:08 EDT" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:08 EDT" name="setup" finished-at="2026-04-29T19:55:11 EDT" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testIncorrectEmailAddress()[pri:5, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:11 EDT" name="testIncorrectEmailAddress" finished-at="2026-04-29T19:55:11 EDT" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncorrectEmailAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:11 EDT" name="tearDown" finished-at="2026-04-29T19:55:13 EDT" duration-ms="2222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:13 EDT" name="setup" finished-at="2026-04-29T19:55:16 EDT" duration-ms="2895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRememberMeChecked()[pri:6, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:16 EDT" name="testRememberMeChecked" finished-at="2026-04-29T19:55:41 EDT" duration-ms="24594" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User Should be logged in! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User Should be logged in! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.webshop.testcase.LoginPageTest.testRememberMeChecked(LoginPageTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRememberMeChecked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:41 EDT" name="tearDown" finished-at="2026-04-29T19:55:43 EDT" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:43 EDT" name="setup" finished-at="2026-04-29T19:55:46 EDT" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRememberMeUnchecked()[pri:7, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:46 EDT" name="testRememberMeUnchecked" finished-at="2026-04-29T19:55:50 EDT" duration-ms="4474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRememberMeUnchecked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.testcase.LoginPageTest@4c402120]" started-at="2026-04-29T19:55:50 EDT" name="tearDown" finished-at="2026-04-29T19:55:53 EDT" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webshop.testcase.LoginPageTest -->
+    </test> <!-- com.qa.webshop -->
+  </suite> <!-- Default Suite -->
+</testng-results>

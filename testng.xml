@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="RegressionTestsuite">
+<suite name="RegressionTestSuite">
     <test verbose="2" preserve-order="true"
           name="WebshopAutomationTests">
         <classes>
-            <class name="com.webshop.testcase.BaseTest"/>
+            <class name="com.webshop.testcase.BooksPageTest"/>
+            <class name="com.webshop.testcase.ComputersPageTest"/>
             <class name="com.webshop.testcase.LoginPageTest"/>
         </classes>
     </test>

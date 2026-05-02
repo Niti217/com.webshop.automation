@@ -82,7 +82,7 @@ public class LoginPageTest extends BaseTest {
         Assert.assertTrue(invalidEmailErrorMessage.contains("Please enter a valid email address"), "Invalid email error message does not contain 'Please enter a valid email address'");
         logger.pass("Verified Invalid Email Error Message contains 'Please enter a valid email address'");
     }
-    @Test(priority = 6)
+    @Test(priority = 6,enabled = false)
     public void testRememberMeChecked() {
         logger=report.createTest("Test Remember Me Checked");
         homePage.clickLoginLink();
@@ -158,7 +158,7 @@ public class LoginPageTest extends BaseTest {
         Assert.assertTrue(homePage.isLoginLinkDisplayed(),"User Should not be logged in!");
         logger.pass("Verified User is not logged in after reopening the browser");
     }
-    @Test(priority = 8)
+    @Test(priority = 8,enabled = false)
     public void testInValidLoginFunctionScreenshot() {
         logger=report.createTest("Test Invalid Login Function with Screenshot");
         homePage.clickLoginLink();

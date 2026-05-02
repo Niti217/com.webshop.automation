@@ -10,7 +10,8 @@ public class HomePage extends DriverScript {
     // ============================Page Elements============================ //
    // @FindBy(linkText = "Log in") private WebElement loginLink;
    // @FindBy(linkText = "Log out") private WebElement logoutLink;
-    @FindBy(xpath=("//a[@href='/books']")) private WebElement booksLink;
+    @FindBy(xpath=("(//a[contains(text(),'Books')])[1]")) private WebElement booksLink;
+    @FindBy(xpath=("(//a[contains(text(),'Computers')])[1]")) private WebElement computersLink;
     private By logoutLink = By.linkText("Log out");
     private By loginLink = By.linkText("Log in");
 
@@ -39,6 +40,9 @@ public class HomePage extends DriverScript {
     }
     public void clickBooksLink() {
         booksLink.click();
+    }
+    public void clickComputersLink() {
+        computersLink.click();
     }
 
 

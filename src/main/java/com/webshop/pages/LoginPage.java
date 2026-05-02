@@ -24,6 +24,11 @@ public class LoginPage extends DriverScript {
     }
 
     // ============================Page Actions/Methods============================ //
+   public void doLogin(String email, String password) {
+        enterEmailID(email);
+        enterPassword(password);
+        clickLoginButton();
+    }
     public String getLoginPageTitle() {
         String title = driver.getTitle();
         System.out.println("Login Page Title: " + title);

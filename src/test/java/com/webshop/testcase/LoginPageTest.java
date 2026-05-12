@@ -180,4 +180,26 @@ public class LoginPageTest extends BaseTest {
         homePage.clickLogoutLink();
         logger.pass("Clicked on Logout Link");
     }
+    @Test(priority = 9,dataProvider = "wsLoginData",enabled = true)
+    public void testValidMultipleLogin(String email, String password) {
+        logger=report.createTest("Test Valid Login");
+        homePage.clickLoginLink();
+        logger.pass("Clicked on Login Link");
+        loginPage.enterEmailID(email);
+        logger.pass("Entered Email ID");
+        loginPage.enterPassword(password);
+        logger.pass("Entered Password");
+        loginPage.clickLoginButton();
+        logger.pass("Clicked on Login Button");
+        homePage.isLogoutLinkDisplayed();
+        logger.pass("Checked if Logout Link is displayed");
+        Assert.assertTrue(homePage.isLogoutLinkDisplayed());
+        logger.pass("Verified Logout Link is displayed");
+        String homePageTitle = homePage.getHomePageTitle();
+        logger.pass("Fetched Home Page Title");
+        Assert.assertTrue(homePageTitle.contains("Demo Web Shop"), "Home page title does not contain 'Demo Web Shop'");
+        logger.pass("Verified Home Page Title contains 'Demo Web Shop'");
+        homePage.clickLogoutLink();
+        logger.pass("Clicked on Logout Link");
+    }
 }

@@ -15,6 +15,7 @@ public class LoginPage extends DriverScript {
         @FindBy(xpath=("//li[contains(text(),'The credentials provided are incorrect')]")) private WebElement emptyPasswordErrorMessage;
         @FindBy(xpath=("//li[contains(text(),'No customer account found')]")) private WebElement emptyEmailErrorMessage;
         @FindBy(xpath=("//span[contains(text(),'Please enter a valid email address.')]")) private WebElement invalidEmailErrorMessage;
+        @FindBy(linkText = "Log out") WebElement logoutLink;
 
     // ============================Page Initialization============================ //
     //PageFactory is a class provided by Selenium to support the Page Object Model design pattern.
@@ -24,7 +25,16 @@ public class LoginPage extends DriverScript {
     }
 
     // ============================Page Actions/Methods============================ //
-   public void doLogin(String email, String password) {
+    public void clickLogout()
+    {
+        logoutLink.click();
+    }
+
+    public boolean isLogoutLinkDisplayed()
+    {
+        return logoutLink.isDisplayed();
+    }
+    public void doLogin(String email, String password) {
         enterEmailID(email);
         enterPassword(password);
         clickLoginButton();

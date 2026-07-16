@@ -20,6 +20,7 @@ public class HomePage extends DriverScript {
     private By logoutLink = By.linkText("Log out");
     private By loginLink = By.linkText("Log in");
     private WebDriverWait wait;
+    @FindBy(xpath = "(//a[contains(text(),'Gift Cards')])[1]") WebElement menuGiftCards;
 
     // ============================Page Initialization============================ //
     public HomePage(){
@@ -62,6 +63,9 @@ public class HomePage extends DriverScript {
     public void clickComputersLink() {
         click(computersLink);
     }
-
+    public void clickGiftCardsMenu()
+    {
+        menuGiftCards.click();
+    }
 
 }

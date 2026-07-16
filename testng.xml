@@ -7,6 +7,7 @@
             <class name="com.webshop.testcase.BooksPageTest"/>
             <class name="com.webshop.testcase.ComputersPageTest"/>
             <class name="com.webshop.testcase.LoginPageTest"/>
+            <class name="com.webshop.testcase.GiftCardsPageTest"></class>
         </classes>
     </test>
 </suite>

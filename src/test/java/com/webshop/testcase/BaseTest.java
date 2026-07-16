@@ -5,10 +5,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.webshop.base.DriverScript;
-import com.webshop.pages.BooksPage;
-import com.webshop.pages.ComputersPage;
-import com.webshop.pages.HomePage;
-import com.webshop.pages.LoginPage;
+import com.webshop.pages.*;
 import com.webshop.utils.ExcelUtil;
 import com.webshop.utils.Helper;
 import org.testng.ITestResult;
@@ -30,6 +27,7 @@ public class BaseTest extends DriverScript {
     LoginPage loginPage;
     BooksPage booksPage;
     ComputersPage computersPage;
+    GiftCardsPage giftCardsPage;
 
     @BeforeSuite
     public void setupReport(){
@@ -45,6 +43,8 @@ public class BaseTest extends DriverScript {
         loginPage = new LoginPage();
         booksPage = new BooksPage();
         computersPage=new ComputersPage();
+        giftCardsPage=new GiftCardsPage();
+
     }
     @AfterMethod
     public void tearDown(ITestResult result){

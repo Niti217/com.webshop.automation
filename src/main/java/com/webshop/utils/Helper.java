@@ -14,7 +14,7 @@ public class Helper {
      */
     public static String captureScreenshot(WebDriver driver) {
         // Code to capture screenshot and save it to a file
-        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String screenshotDir = System.getProperty("user.dir") + "/src/test/resources/report/screenshots/";
         new File(screenshotDir).mkdirs(); // Create the directory if it doesn't exist
         String destination = screenshotDir + "screenshot_" + System.currentTimeMillis() + ".png";
@@ -26,6 +26,12 @@ public class Helper {
         return destination;
     }
 
-
+    public static void sleep() {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
